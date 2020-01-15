@@ -1,0 +1,4 @@
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.BusinessAccessLayer\bin\Debug\API.BusinessAccessLayer.dll
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.BusinessAccessLayer\bin\Debug\API.BusinessAccessLayer.pdb
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.BusinessAccessLayer\obj\Debug\API.BusinessAccessLayer.dll
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.BusinessAccessLayer\obj\Debug\API.BusinessAccessLayer.pdb

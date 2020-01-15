@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webdroids_ToursAPI", "Webdroids_ToursAPI\Webdroids_ToursAPI.csproj", "{CADC4688-AEC2-44BE-93BD-8A67CC43D224}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08BFB992-1109-4A92-ADE3-9D81D1AAB86C} = {08BFB992-1109-4A92-ADE3-9D81D1AAB86C}
+		{2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51} = {2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.DbHelper", "API.DbHelper\API.DbHelper.csproj", "{368353A6-F055-4620-9DC6-9F6EB0116E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.DataAccessLayer", "API.DataAccessLayer\API.DataAccessLayer.csproj", "{ADA4DBA0-A33D-4E1C-BC13-CE9A365CA2F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{368353A6-F055-4620-9DC6-9F6EB0116E00} = {368353A6-F055-4620-9DC6-9F6EB0116E00}
+		{2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51} = {2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.BusinessAccessLayer", "API.BusinessAccessLayer\API.BusinessAccessLayer.csproj", "{08BFB992-1109-4A92-ADE3-9D81D1AAB86C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ADA4DBA0-A33D-4E1C-BC13-CE9A365CA2F5} = {ADA4DBA0-A33D-4E1C-BC13-CE9A365CA2F5}
+		{2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51} = {2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Models", "API.Models\API.Models.csproj", "{2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CADC4688-AEC2-44BE-93BD-8A67CC43D224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADC4688-AEC2-44BE-93BD-8A67CC43D224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADC4688-AEC2-44BE-93BD-8A67CC43D224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADC4688-AEC2-44BE-93BD-8A67CC43D224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368353A6-F055-4620-9DC6-9F6EB0116E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368353A6-F055-4620-9DC6-9F6EB0116E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368353A6-F055-4620-9DC6-9F6EB0116E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368353A6-F055-4620-9DC6-9F6EB0116E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA4DBA0-A33D-4E1C-BC13-CE9A365CA2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA4DBA0-A33D-4E1C-BC13-CE9A365CA2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA4DBA0-A33D-4E1C-BC13-CE9A365CA2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA4DBA0-A33D-4E1C-BC13-CE9A365CA2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BFB992-1109-4A92-ADE3-9D81D1AAB86C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BFB992-1109-4A92-ADE3-9D81D1AAB86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BFB992-1109-4A92-ADE3-9D81D1AAB86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BFB992-1109-4A92-ADE3-9D81D1AAB86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAC2EBD-DF2F-4C2B-AE9F-AF3C8398BB51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D987CC5-472D-4B2E-A89A-6BE3830D68BD}
+	EndGlobalSection
+EndGlobal

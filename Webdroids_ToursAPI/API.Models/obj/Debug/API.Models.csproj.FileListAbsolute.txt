@@ -1,0 +1,4 @@
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.Models\bin\Debug\API.Models.dll
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.Models\bin\Debug\API.Models.pdb
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.Models\obj\Debug\API.Models.dll
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.Models\obj\Debug\API.Models.pdb

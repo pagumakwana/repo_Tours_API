@@ -1,0 +1,4 @@
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.DbHelper\bin\Debug\API.DbHelper.dll
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.DbHelper\bin\Debug\API.DbHelper.pdb
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.DbHelper\obj\Debug\API.DbHelper.dll
+C:\Projects\repo_Tours_API\Webdroids_ToursAPI\API.DbHelper\obj\Debug\API.DbHelper.pdb
